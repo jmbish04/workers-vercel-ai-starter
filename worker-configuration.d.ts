@@ -2,4 +2,5 @@
 // After adding bindings to `wrangler.jsonc`, regenerate this interface via `npm run cf-typegen`
 interface Env {
 	ASSETS: Fetcher;
+	AI: any; // Add AI binding for Cloudflare AI integration
 }
